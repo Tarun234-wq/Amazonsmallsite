@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+      <!-- awesome -->
+  <script src="https://kit.fontawesome.com/cbccdac11a.js" crossorigin="anonymous"></script>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        h1{
+            text-align: center;
+            font-weight: bolder;
+            text-decoration: underline;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: black;
+        }
+        .nav-bar{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top:10px;
+        
+        }
+        a{
+            color: white;
+            text-decoration: none;
+            padding: 25px;
+            margin: 15px;
+            font-family: 'Courier New', Courier, monospace;
+            
+            
+        }
+        a:hover{
+            color: blue;
+        }
+        .amz{
+            float: left;
+            font-size: 25px;
+        }
+       @media(max-width:500px){
+        a{
+            padding: 15px;
+            margin: 5px;
+        }
+       }
+       .headings{
+        text-align: center;
+        text-decoration: underline;
+        font-weight: bold;
+        font-family: monospace;
+        margin-top: 10px;
+        font-size: 30px;
+       }
+       .para{
+         padding-top: 15px;
+        margin: auto;
+        width: 60%;
+        line-height: 1.6rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+       }
+       .image{
+        width: 100px;
+        height: 100px;
+       }
+       .imag{
+        width: 100px;
+        height: 150px;
+    
+        margin: 20px auto;
+        display: flex;
+        justify-content: space-between;
+   
+       }
+       .imgs{
+        height: 50px;
+        width: 50px;
+        float: right;
+        align-content: center;
+       }
+       hr{
+        border: dotted red 6px;
+       border-bottom: none;
+       width: 5%;
+       margin: 40px auto;
+     }
+     .list{
+        text-align: center;
+        line-height: 1.5rem;
+        font-family: sans-serif;
+        font-weight: lighter;
+        background-color: black;
+        list-style-position: none;
+        text-align: center;
+        color: white;
+        padding: 70px;
+        list-style: none;
+        word-spacing: 2ch;
+        
+     }
+     #Shop{
+        margin-bottom: 15px;
+     }
+     .foot{
+        text-align: center;
+     }
+     .foo{
+        font-weight: bolder;
+        font-family: fantasy;
+        padding: 30px
+     }
+     .lis{
+        padding: 1%;
+     }
+    
+       
+    </style>
+    </head>
+<body>
+    <h1>Amazon</h1>
+     <div>
+        <nav class="nav-bar">
+            <ul>
+                <li class = "amz">Amazon</li>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#Shop">Shop</a>
+            </ul>
+        </nav>
+     </div>
+  
+     <div id="home">
+        <section>
+          <h2 class = "headings">Home</h2>
+            <p class = "para">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.dLl9UyA6y1GTydI-npnoygHaHv&pid=Api&P=0" class="image" alt="Amazon">
+               
+                Amazon.com is an ecommerce platform that sells many product lines, including media
+                 (books, movies, music, and software), apparel, baby products, consumer electronics, beauty products,
+                  gourmet food, groceries, health and personal care products, industrial & scientific supplies,
+                   kitchen items, jewelry, watches, lawn and garden items, musical instruments,
+                 sporting goods, tools, automotive items, toys and games, and farm supplies and consulting services.
+
+            </p>
+
+        </section>
+        </div>
+
+        <hr>
+        
+        <div id="about">
+            <h2 class="headings">About</h2>
+            <section>
+            <img src="https://tse1.mm.bing.net/th?id=OIP.Aie-0i180j40AZ4nxYVG5AHaFj&pid=Api&P=0" class="imag" alt="amz">
+            <p class="para">
+                Amazon.com is a vast Internet-based enterprise that sells books, music, movies, housewares
+                , electronics, toys, and many other goods, either directly or as the middleman between
+                 other retailers and Amazon.com’s millions of customers. Its Web services business includes
+                  renting data storage and computing resources, so-called “cloud computing,” over the Internet.
+                  Its considerable online presence is such that, in 2012, 1 percent of all Internet traffic in North
+                   America traveled in and out of Amazon.com .
+
+          
+
+
+            </p>
+            </section>
+        </div>
+        <hr>
+
+        <div id = "Shop">
+            <h2 class="headings">Shop</h2>
+            <section>
+              <ol class="list">
+                <li>
+                    <span>Electronics</span>
+                  </li>
+                  <li>
+                    <span>Clothes</span>
+                  </li>
+                  <li>
+                    <span>Books</span>
+                  </li>
+              </ol>
+            </section>
+
+        </div>
+        <div class="foot">
+            <i class="fa-brands fa-facebook lis"></i>
+            <i class="fa-brands fa-twitter lis"></i>
+            <i class="fa-brands fa-instagram lis"></i>
+            <i class="fa-solid fa-message lis"></i>
+            <footer class="foo">
+               
+                &copy; Amazon.com
+            </footer>
+        </div>
+        
+
+
+     
+    
+</body>
+</html>
